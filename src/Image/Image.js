@@ -7,15 +7,16 @@ class Image extends Component {
   constructor() {
     super()
     this.state = {
-      image: ''
+      image: '',
+      imgID: 'f1bbfd0b-7436-4cb2-ab12-04f6bb79ec89.jpg'
     }
   }
 
   componentWillMount() {
-    this.getData()
+    this.getImage(this.state.imgID)
   }
 
-  getData() {
+  getImage = (imgID) => {
     var xhr = new XMLHttpRequest()
 
     xhr.addEventListener('load', () => {
@@ -25,7 +26,7 @@ class Image extends Component {
       })
     })
 
-    xhr.open('GET', 'https://api.smk.dk/api/v1/thumbnail/f1bbfd0b-7436-4cb2-ab12-04f6bb79ec89.jpg')
+    xhr.open('GET', 'https://api.smk.dk/api/v1/thumbnail/' + imgID)
     xhr.send()
   }
 
