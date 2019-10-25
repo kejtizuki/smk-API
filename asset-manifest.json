@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/smk-API/static/css/main.562ff59e.chunk.css",
+    "main.js": "/smk-API/static/js/main.5983fbbf.chunk.js",
+    "main.js.map": "/smk-API/static/js/main.5983fbbf.chunk.js.map",
+    "runtime-main.js": "/smk-API/static/js/runtime-main.b947fbf4.js",
+    "runtime-main.js.map": "/smk-API/static/js/runtime-main.b947fbf4.js.map",
+    "static/js/2.49716f86.chunk.js": "/smk-API/static/js/2.49716f86.chunk.js",
+    "static/js/2.49716f86.chunk.js.map": "/smk-API/static/js/2.49716f86.chunk.js.map",
+    "index.html": "/smk-API/index.html",
+    "precache-manifest.0974b007903320cd968baa95c0b1ffa2.js": "/smk-API/precache-manifest.0974b007903320cd968baa95c0b1ffa2.js",
+    "service-worker.js": "/smk-API/service-worker.js",
+    "static/css/main.562ff59e.chunk.css.map": "/smk-API/static/css/main.562ff59e.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b947fbf4.js",
+    "static/js/2.49716f86.chunk.js",
+    "static/css/main.562ff59e.chunk.css",
+    "static/js/main.5983fbbf.chunk.js"
+  ]
+}
