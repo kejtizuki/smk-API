@@ -12,4 +12,3 @@ Try to follow instructions below, otherwise you can fork this repo, run the code
     getArt(collectionID) - takes collectionID as parameter and GETs image url
     getArtInfo(collectionID) - takes collectionID as parameter and GETs artist name
   ```
-6. 
