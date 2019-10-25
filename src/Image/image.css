@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
+.imgContainer {
+  font-family: 'Inconsolata';
+}
+
 .center {
   margin: 0 auto;
 }
 
 .thumbnail {
-  padding: 50px;
+  padding: 20px 0px 10px 0px;
 }
